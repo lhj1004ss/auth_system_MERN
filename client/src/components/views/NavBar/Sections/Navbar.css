@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 .menu {
   padding: 0 20px;
@@ -83,5 +83,6 @@
 
   .menu__logo a {
     padding: 10px 20px;
+    font-weight: bold;
   }
 }

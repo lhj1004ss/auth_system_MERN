@@ -1,0 +1,32 @@
+.post-page {
+  border: 2px solid lightblue;
+  max-width: 800px;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  background: lightblue;
+}
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.form-label {
+  font-weight: bold;
+}
+.form-input-textarea {
+  margin: 1.2rem 0;
+}
+
+.form-post {
+  max-width: 700px;
+  text-align: left;
+  margin: 2rem auto;
+}
+.form-select {
+  display: flex;
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+.form-btn {
+  margin-left: auto;
+}
