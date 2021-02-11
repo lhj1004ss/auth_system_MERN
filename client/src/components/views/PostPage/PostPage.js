@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './PostPage.css';
-import { Typography, Button, Form, message, Input, Icon} from 'antd';
+import { Button, Form, Input} from 'antd';
 import { HiOutlinePencilAlt } from 'react-icons/hi';
 import axios from 'axios';
 import { useSelector } from 'react-redux'
@@ -8,9 +8,9 @@ const { TextArea } = Input;
 
 
   const categoryList = [
-  { value: 0, name: "Blog" },
-  { value: 1, name: "Story" },
-  { value: 2, name: "Fun" },
+  {  name: "Blog" },
+  {  name: "Story" },
+  {  name: "Fun" },
 ]
 
 function PostPage(props) {
@@ -76,7 +76,7 @@ function PostPage(props) {
           <div className='form-select'>
             <select name="category" onChange={onChangeHandler} value={category} >
               {categoryList.map((data, index) => (
-                <option key={index} value={data.value}>
+                <option key={index}>
                   {data.name}
                 </option>
               ))}

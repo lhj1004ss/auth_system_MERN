@@ -20,6 +20,10 @@ const postSchema = mongoose.Schema({
   },
   category: {
     type: String
+  },
+  view: {
+    type: Number,
+    default: -2
   }
 },{ timestamps: true });
 
